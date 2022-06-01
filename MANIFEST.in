@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include excle_migration_data *.css
+recursive-include excle_migration_data *.csv
+recursive-include excle_migration_data *.html
+recursive-include excle_migration_data *.ico
+recursive-include excle_migration_data *.js
+recursive-include excle_migration_data *.json
+recursive-include excle_migration_data *.md
+recursive-include excle_migration_data *.png
+recursive-include excle_migration_data *.py
+recursive-include excle_migration_data *.svg
+recursive-include excle_migration_data *.txt
+recursive-exclude excle_migration_data *.pyc
